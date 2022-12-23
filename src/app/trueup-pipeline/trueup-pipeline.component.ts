@@ -118,7 +118,7 @@ export class TrueupPipelineComponent implements OnInit {
   
     this.pipelineOutput ="Checking Info...";
     console.log("Run pipeline button clicked!");
-    // let pipeline1 = new GitModel("glptt-98665054a7cff36113f1fc33856e9402a2342627", "feature/addresslookup");
+    
     let pipeline1 = new GitModel("[TRIGGER-TOKEN]", "feature/COCIDCS-6261_SamsonSequence");
     
 
